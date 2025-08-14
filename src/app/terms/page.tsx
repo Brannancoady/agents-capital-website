@@ -39,15 +39,7 @@ export default function TermsPage() {
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
               <div className="flex items-start">
                 <Shield className="h-6 w-6 text-blue-600 mr-3 mt-1" />
-                <div>
-                  <h3 className="text-lg font-semibold text-blue-900 mb-2">Important Notice</h3>
-                  <p className="text-blue-800">
-                    Agents Capital Ltd is authorised and regulated by the Financial Conduct Authority (FCA).
-                    These terms govern the provision of commission advance services to UK estate agents.
-                  </p>
-                </div>
-              </div>
-            </div>
+       
 
             <h2>1. About These Terms</h2>
             <p>
@@ -90,7 +82,7 @@ export default function TermsPage() {
             <h2>4. Fees and Charges</h2>
             <h3>4.1 Commission Fee</h3>
             <p>
-              We charge a fee of 3.5% of the commission amount for our advance service.
+              Our fees start from 9% of the commission amount for our advance service.
               This fee is deducted from your commission before payment.
             </p>
 
