@@ -22,7 +22,7 @@ export default function ContactPage() {
       <SharedNavigation />
 
       {/* Header */}
-      <section className="bg-gradient-to-r from-slate-800 to-slate-900 text-white py-16">
+      <section className="bg-gradient-to-r from-slate-800 to-Black-900 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="bg-white text-slate-800 mb-4">
@@ -59,7 +59,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent className="text-center space-y-4">
                   <div>
-                    <p className="text-3xl font-bold text-green-600">07368162737</p>
+                    <p className="text-3xl font-bold text-black-600">07368162737</p>
                     <p className="text-sm text-slate-600">Free UK landline</p>
                   </div>
                   <div className="space-y-2">
@@ -68,7 +68,7 @@ export default function ContactPage() {
                       <span>Mon-Fri: 9am-6pm</span>
                     </div>
                   </div>
-                  <Button className="w-full bg-green-600 hover:bg-green-700">
+                  <Button className="w-full bg-blue-600 hover:bg-black-700">
                     <Phone className="h-4 w-4 mr-2" />
                     Call Now
                   </Button>
@@ -78,20 +78,20 @@ export default function ContactPage() {
               <Card className="hover:shadow-lg transition-shadow">
                 <CardHeader className="text-center">
                   <div className="h-16 w-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <Mail className="h-8 w-8 text-blue-600" />
+                    <Mail className="h-8 w-8 text-black-600" />
                   </div>
                   <CardTitle className="text-xl">Email Support</CardTitle>
                   <CardDescription>Get detailed written responses</CardDescription>
                 </CardHeader>
                 <CardContent className="text-center space-y-4">
                   <div>
-                    <p className="text-lg font-semibold text-blue-600">Valentina@agentscapital.co</p>
+                    <p className="text-lg font-semibold text-black-600">Hello@agentscapital.co</p>
                     <p className="text-sm text-slate-600">All enquiries</p>
                   </div>
                   <div className="text-sm text-slate-600">
                     <p>Same day response within working hours</p>
                   </div>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                  <Button className="w-full bg-black-600 hover:bg-grey-700">
                     <Mail className="h-4 w-4 mr-2" />
                     Send Email
                   </Button>
@@ -191,7 +191,7 @@ export default function ContactPage() {
 
                       <div className="flex items-center">
                         <Mail className="h-5 w-5 text-slate-600 mr-3" />
-                        <span>Valentina@agentscapital.co</span>
+                        <span>Hello@agentscapital.co</span>
                       </div>
                     </div>
                   </CardContent>
@@ -217,7 +217,7 @@ export default function ContactPage() {
                       <div className="border-t pt-3">
                         <div className="text-sm text-slate-600">
                           <p className="font-semibold">Emergency Contact:</p>
-                          <p>For urgent matters outside business hours, email us and we'll respond within 4 hours.</p>
+                          <p>For urgent matters outside business hours, email us and we'll respond within 6 hours.</p>
                         </div>
                       </div>
                     </div>
@@ -236,7 +236,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Don't wait - apply for commission advance today and transform your cash flow
+            Don't wait - apply for commission advance today and transform your cash flow!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/apply">
@@ -245,7 +245,7 @@ export default function ContactPage() {
               </Button>
             </Link>
             <Link href="/pricing">
-              <Button size="lg" variant="outline" className="text-lg px-8 py-4 border-white !text-white hover:bg-white hover:!text-green-600">
+              <Button size="lg" variant="outline" className="text-lg px-8 py-4 border-white !text-white hover:bg-white hover:!text-black-600">
                 View Pricing
               </Button>
             </Link>
