@@ -15,17 +15,17 @@ export default function PrivacyPage() {
       <SharedNavigation />
 
       {/* Header */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-16">
+      <section className="bg-gradient-to-r from-white-600 to-white-700 text-black py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge variant="secondary" className="bg-white text-blue-600 mb-4">
+            <Badge variant="secondary" className="bg-white text-black-600 mb-4">
               Data Protection
             </Badge>
             <h1 className="text-5xl font-bold mb-6">Privacy Policy</h1>
-            <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+            <p className="text-xl text-white-100 max-w-2xl mx-auto">
               How we collect, use, and protect your personal information in compliance with UK GDPR
             </p>
-            <p className="text-sm text-blue-200 mt-4">
+            <p className="text-sm text-white-200 mt-4">
               Last updated: January 2024
             </p>
           </div>
@@ -41,8 +41,8 @@ export default function PrivacyPage() {
               <div className="flex items-start">
                 <Lock className="h-6 w-6 text-blue-600 mr-3 mt-1" />
                 <div>
-                  <h3 className="text-lg font-semibold text-blue-900 mb-2">Your Privacy Matters</h3>
-                  <p className="text-blue-800">
+                  <h3 className="text-lg font-semibold text-white-900 mb-2">Your Privacy Matters</h3>
+                  <p className="text-white-800">
                     We are committed to protecting your privacy and handling your personal data responsibly.
                     This policy explains how we collect, use, and safeguard your information.
                   </p>
@@ -61,7 +61,7 @@ export default function PrivacyPage() {
             <ul>
               <li>Company: Agents Capital Ltd</li>
               <li>Address: Unit 1 Syds Quay, Eel Pie Island, Twickenham TW1 3DY</li>
-              <li>Email: Valentina@agentscapital.co</li>
+              <li>Email: Hello@agentscapital.co </li>
               <li>Phone: 07368162737</li>
             </ul>
 
@@ -186,7 +186,7 @@ export default function PrivacyPage() {
               <li><strong>Withdraw consent:</strong> For marketing communications</li>
             </ul>
 
-            <p>To exercise these rights, contact us at Valentina@agentscapital.co</p>
+            <p>To exercise these rights, contact us at Hello@agentscapital.co </p>
 
             <h2>9. Cookies and Website Analytics</h2>
             <h3>9.1 Cookie Types</h3>
@@ -214,7 +214,7 @@ export default function PrivacyPage() {
             <h3>11.1 Contact Our Privacy Team</h3>
             <p>For privacy-related questions or to exercise your rights:</p>
             <ul>
-              <li>Email: Valentina@agentscapital.co</li>
+              <li>Email: Hello@agentscapital.co</li>
               <li>Phone: 07368162737</li>
               <li>Post: Privacy Team, Agents Capital Ltd, Unit 1 Syds Quay, Eel Pie Island, Twickenham TW1 3DY</li>
             </ul>
@@ -245,17 +245,17 @@ export default function PrivacyPage() {
                 </h3>
                 <div className="space-y-2">
                   <p>
-                    <Link href="/terms" className="text-blue-600 hover:underline">
+                    <Link href="/terms" className="text-black bold-600 hover:underline">
                       Terms & Conditions
                     </Link> - Our service terms and legal agreements
                   </p>
                   <p>
-                    <Link href="/help" className="text-blue-600 hover:underline">
+                    <Link href="/help" className="text-black bold-600 hover:underline">
                       Help Centre
                     </Link> - Frequently asked questions about data protection
                   </p>
                   <p>
-                    <Link href="/contact" className="text-blue-600 hover:underline">
+                    <Link href="/contact" className="text-black bold-600 hover:underline">
                       Contact Us
                     </Link> - Get in touch with our privacy team
                   </p>
